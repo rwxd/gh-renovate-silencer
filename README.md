@@ -29,17 +29,17 @@ docker pull ghcr.io/rwxd/gh-renovate-silencer:latest
 
 ```bash
 # Basic usage
-gh-renovate-silencer silence --token YOUR_GITHUB_TOKEN
+gh-renovate-silencer --token YOUR_GITHUB_TOKEN
 
 # Exclude specific repositories
-gh-renovate-silencer silence --token YOUR_GITHUB_TOKEN --exclude owner/repo1 --exclude owner/repo2
+gh-renovate-silencer --token YOUR_GITHUB_TOKEN --exclude owner/repo1 --exclude owner/repo2
 
 # Dry run mode
-gh-renovate-silencer silence --token YOUR_GITHUB_TOKEN --dry-run
+gh-renovate-silencer --token YOUR_GITHUB_TOKEN --dry-run
 
 # Using environment variable for token
 export GITHUB_TOKEN=YOUR_GITHUB_TOKEN
-gh-renovate-silencer silence
+gh-renovate-silencer
 ```
 
 ### Docker

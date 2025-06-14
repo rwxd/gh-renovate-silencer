@@ -11,4 +11,3 @@ RUN pip install --no-cache-dir .
 
 # Set the entrypoint
 ENTRYPOINT ["gh-renovate-silencer"]
-CMD ["silence"]
